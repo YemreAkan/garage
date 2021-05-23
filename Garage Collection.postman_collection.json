@@ -1,0 +1,117 @@
+{
+	"info": {
+		"_postman_id": "077851fa-5578-47a0-81e2-340455137415",
+		"name": "Garage Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "park",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"plate\": \"34-SO-1988\",\n    \"colour\": \"Black\",\n    \"type\": \"Car\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/garage/park"
+			},
+			"response": []
+		},
+		{
+			"name": "park2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"plate\": \"34-SO-1988\",\n    \"colour\": \"Black\",\n    \"type\": \"Car\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/garage/park"
+			},
+			"response": []
+		},
+		{
+			"name": "park3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"plate\": \"34-SO-1988\",\n    \"colour\": \"Black\",\n    \"type\": \"Car\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/garage/park"
+			},
+			"response": []
+		},
+		{
+			"name": "park4",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"plate\": \"34-SO-1988\",\n    \"colour\": \"Black\",\n    \"type\": \"Car\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/garage/park"
+			},
+			"response": []
+		},
+		{
+			"name": "leave",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "park5",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"plate\": \"34-SO-1988\",\n    \"colour\": \"Black\",\n    \"type\": \"Car\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/garage/park"
+			},
+			"response": []
+		},
+		{
+			"name": "status",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		}
+	]
+}
