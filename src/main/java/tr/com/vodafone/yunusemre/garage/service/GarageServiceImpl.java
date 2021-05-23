@@ -1,11 +1,8 @@
 package tr.com.vodafone.yunusemre.garage.service;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Component;
 
 import tr.com.vodafone.yunusemre.garage.model.*;
